@@ -1,7 +1,5 @@
 # Binding-site PCA of a structural ensemble
 
-**Author:** Han Kurt
-
 Principal-component analysis of the **binding-site conformations** across an
 ensemble of pre-aligned protein structures. The tool finds the residues that
 line the ligand in each structure, keeps the ones shared by the ensemble,
