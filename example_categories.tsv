@@ -1,0 +1,37 @@
+# label<TAB or space>category name (spaces allowed in the name)
+# labels must match --label-regex output (here: the PDB code)
+1J1B	ADP/ANP
+1PYX	ADP/ANP
+1J1C	ADP/ANP
+4NM3	ADP/ANP
+4NM5	ADP/ANP
+4NM0	ADP/ANP
+4NM7	ADP/ANP
+3DU8	Type-II inhibitors
+3ZRK	Type-II inhibitors
+4PTC	Type-II inhibitors
+4PTG	Type-II inhibitors
+3ZRL	Type-II inhibitors
+4B7T	Type-II inhibitors
+3I4B	Type-II inhibitors
+3F7Z	Type-II inhibitors
+3ZRM	Type-II inhibitors
+8FF8	Specific inhibitors
+5HLN	Specific inhibitors
+8DJE	Specific inhibitors
+8DJD	Specific inhibitors
+4PTE	Specific inhibitors
+8AUZ	Specific inhibitors
+8AV1	Specific inhibitors
+6B8J	Specific inhibitors
+6GN1	Specific inhibitors
+4ACD	Novel compounds
+4ACC	Novel compounds
+4ACG	Novel compounds
+7U31	Novel compounds
+6HK7	Novel compounds
+5KPL	Type-I inhibitors
+7SXJ	Type-I inhibitors
+4IQ6	Type-I inhibitors
+5KPK	Type-I inhibitors
+6V6L	Type-I inhibitors

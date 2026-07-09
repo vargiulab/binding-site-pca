@@ -1,0 +1,24 @@
+# --- OS / editor junk ---
+.DS_Store
+.Rhistory
+*~
+__pycache__/
+*.pyc
+
+# --- Structures & trajectories (never commit these) ---
+*.pdb
+*.dcd
+*.xtc
+*.trr
+*.crd
+*.nc
+
+# --- Script outputs ---
+pca_out/
+*.png
+pca_projections.csv
+pca_summary.txt
+
+# Keep the example inputs that ARE meant to be published:
+!example_mapping.tsv
+!example_categories.tsv
