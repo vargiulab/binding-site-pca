@@ -16,6 +16,7 @@ __pycache__/
 # --- Script outputs ---
 pca_out/
 *.png
+!overview.png
 pca_projections.csv
 pca_summary.txt
 
