@@ -9,7 +9,7 @@ clustering with a distance cut) and rendered as PC scatter plots, a 3D plot and
 a coloured dendrogram, plus a projections table and a text summary.
 
 Use it to answer *"how many distinct binding-site conformations does my target
-adopt, and which structures share one?"* — for a panel of co-crystal structures,
+adopt, and which structures share one?"* for a panel of co-crystal structures,
 docked poses, or PDB snapshots of an MD trajectory.
 
 The target is **not** hard-coded: the structure list, the ligand of each
@@ -61,7 +61,7 @@ conda activate bspca
 
 ## Input files
 
-**Mapping file** (`--mapping`, required) — one line per structure:
+**Mapping file** (`--mapping`, required): one line per structure:
 
 ```
 # structure_file        ligand_resname[,resname2,...]
@@ -73,7 +73,7 @@ aligned_5KPK_prep.pdb   6VK
 The structure files are read from `--pdb-dir`. Multiple comma-separated residue
 names are combined (e.g. `ADP,MG`). See [`example_mapping.tsv`](example_mapping.tsv).
 
-**Category file** (`--categories`, optional) — assigns a group to each label so
+**Category file** (`--categories`, optional): assigns a group to each label so
 points are drawn with distinct marker shapes and a `category` column is added:
 
 ```
@@ -135,15 +135,15 @@ python pca_binding_site.py \
 
 - **No common residues?** Lower `--presence` or raise `--cutoff`.
 - **"Inconsistent atom counts" error** means your structures don't share the same
-  residue numbering for the binding site — renumber/curate them first.
+  residue numbering for the binding site; renumber/curate them first.
 - The number of clusters is set by the `--cluster-distance` cut, not fixed in
   advance; lower it for more, finer clusters.
 - The bundled `example_mapping.tsv` / `example_categories.tsv` come from a
-  GSK-3β co-crystal panel and are provided purely as a format reference — the
+  GSK-3β co-crystal panel and are provided purely as a format reference; the
   PDB files themselves are not included.
 
 ---
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT, see [LICENSE](LICENSE).
